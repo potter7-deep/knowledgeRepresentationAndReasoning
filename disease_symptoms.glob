@@ -1,0 +1,64 @@
+DIGEST c35180cad307aace66f4ac0fb75c8282
+Fdisease_symptoms
+ind 10:16 <> symptom
+constr 36:49 <> yellow_stripes
+constr 59:69 <> leaf_blight
+constr 79:92 <> stunted_growth
+constr 102:105 <> mold
+constr 115:121 <> wilting
+scheme 10:16 <> symptom_rect
+scheme 10:16 <> symptom_ind
+scheme 10:16 <> symptom_rec
+scheme 10:16 <> symptom_sind
+ind 136:142 <> disease
+constr 162:173 <> maize_streak
+constr 183:202 <> northern_leaf_blight
+constr 212:223 <> fusarium_rot
+constr 233:246 <> drought_stress
+scheme 136:142 <> disease_rect
+scheme 136:142 <> disease_ind
+scheme 136:142 <> disease_rec
+scheme 136:142 <> disease_sind
+ind 260:268 <> Treatment
+constr 288:304 <> resistant_variety
+constr 314:322 <> fungicide
+constr 332:342 <> insecticide
+constr 352:369 <> biological_control
+constr 379:392 <> vector_control
+constr 402:414 <> crop_rotation
+constr 424:437 <> seed_treatment
+constr 447:457 <> no_chemical
+scheme 260:268 <> Treatment_rect
+scheme 260:268 <> Treatment_ind
+scheme 260:268 <> Treatment_rec
+scheme 260:268 <> Treatment_sind
+ind 471:489 <> disease_has_symptom
+constr 531:545 <> ds_maize_yellow
+constr 618:628 <> ds_nlb_leaf
+constr 706:721 <> ds_fusarium_mold
+constr 784:800 <> ds_fusarium_stunt
+constr 873:887 <> ds_drought_wilt
+R500:503 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R493:499 disease_symptoms <> disease ind
+R511:514 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R504:510 disease_symptoms <> symptom ind
+R561:579 disease_symptoms <> disease_has_symptom:7 ind
+R594:607 disease_symptoms <> yellow_stripes constr
+R581:592 disease_symptoms <> maize_streak constr
+R644:662 disease_symptoms <> disease_has_symptom:7 ind
+R685:695 disease_symptoms <> leaf_blight constr
+R664:683 disease_symptoms <> northern_leaf_blight constr
+R737:755 disease_symptoms <> disease_has_symptom:7 ind
+R770:773 disease_symptoms <> mold constr
+R757:768 disease_symptoms <> fusarium_rot constr
+R816:834 disease_symptoms <> disease_has_symptom:7 ind
+R849:862 disease_symptoms <> stunted_growth constr
+R836:847 disease_symptoms <> fusarium_rot constr
+R903:921 disease_symptoms <> disease_has_symptom:7 ind
+R938:944 disease_symptoms <> wilting constr
+R923:936 disease_symptoms <> drought_stress constr
+scheme 471:489 <> disease_has_symptom_ind
+scheme 471:489 <> disease_has_symptom_sind
+R960:978 disease_symptoms <> disease_has_symptom ind
+R980:991 disease_symptoms <> maize_streak constr
+R993:1006 disease_symptoms <> yellow_stripes constr
